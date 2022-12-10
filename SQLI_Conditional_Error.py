@@ -11,7 +11,8 @@ def def_handler(sig, frame):
 # Ctrl+C
 signal.signal(signal.SIGINT, def_handler)
 
-main_url="https://0a0e00db03d79f32c11d6534001000dd.web-security-academy.net/"
+#SQL attach based on cookie SQL injection code (default columns are useranme and password and users table is considered in this script)
+main_url="URL"
 characters= string.ascii_lowercase + string.digits
 
 def makeRequest():
